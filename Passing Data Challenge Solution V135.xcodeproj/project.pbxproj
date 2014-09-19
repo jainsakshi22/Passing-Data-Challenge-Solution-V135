@@ -21,6 +21,7 @@
 		53D6508F19CCBE230009E2BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D6507119CCBE230009E2BA /* UIKit.framework */; };
 		53D6509719CCBE230009E2BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53D6509519CCBE230009E2BA /* InfoPlist.strings */; };
 		53D6509919CCBE230009E2BA /* Passing_Data_Challenge_Solution_V135Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D6509819CCBE230009E2BA /* Passing_Data_Challenge_Solution_V135Tests.m */; };
+		53D650A419CCC2900009E2BA /* CCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D650A319CCC2900009E2BA /* CCDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		53D6509419CCBE230009E2BA /* Passing Data Challenge Solution V135Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge Solution V135Tests-Info.plist"; sourceTree = "<group>"; };
 		53D6509619CCBE230009E2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53D6509819CCBE230009E2BA /* Passing_Data_Challenge_Solution_V135Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_Solution_V135Tests.m; sourceTree = "<group>"; };
+		53D650A219CCC2900009E2BA /* CCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDetailViewController.h; sourceTree = "<group>"; };
+		53D650A319CCC2900009E2BA /* CCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				53D6507C19CCBE230009E2BA /* CCAppDelegate.h */,
 				53D6507D19CCBE230009E2BA /* CCAppDelegate.m */,
 				53D6507F19CCBE230009E2BA /* Main.storyboard */,
-				53D6508219CCBE230009E2BA /* CCViewController.h */,
 				53D6508319CCBE230009E2BA /* CCViewController.m */,
+				53D6508219CCBE230009E2BA /* CCViewController.h */,
+				53D650A219CCC2900009E2BA /* CCDetailViewController.h */,
+				53D650A319CCC2900009E2BA /* CCDetailViewController.m */,
 				53D6508519CCBE230009E2BA /* Images.xcassets */,
 				53D6507419CCBE230009E2BA /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				53D6507E19CCBE230009E2BA /* CCAppDelegate.m in Sources */,
 				53D6507A19CCBE230009E2BA /* main.m in Sources */,
 				53D6508419CCBE230009E2BA /* CCViewController.m in Sources */,
+				53D650A419CCC2900009E2BA /* CCDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
