@@ -118,8 +118,8 @@
 				53D6507C19CCBE230009E2BA /* CCAppDelegate.h */,
 				53D6507D19CCBE230009E2BA /* CCAppDelegate.m */,
 				53D6507F19CCBE230009E2BA /* Main.storyboard */,
-				53D6508319CCBE230009E2BA /* CCViewController.m */,
 				53D6508219CCBE230009E2BA /* CCViewController.h */,
+				53D6508319CCBE230009E2BA /* CCViewController.m */,
 				53D650A219CCC2900009E2BA /* CCDetailViewController.h */,
 				53D650A319CCC2900009E2BA /* CCDetailViewController.m */,
 				53D6508519CCBE230009E2BA /* Images.xcassets */,
@@ -462,6 +462,7 @@
 				53D6509E19CCBE230009E2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53D6509F19CCBE230009E2BA /* Build configuration list for PBXNativeTarget "Passing Data Challenge Solution V135Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				53D650A119CCBE230009E2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
