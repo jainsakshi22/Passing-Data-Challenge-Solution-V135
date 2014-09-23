@@ -35,8 +35,19 @@
         {
             CCDetailViewController *nextController = segue.destinationViewController;
             nextController.information = self.textField.text;
+            
+            nextController.delegate = self; //To implement CCDetailViewControllerDelegate
         }
     }
+    
 }
+
+#pragma mark - CCDetailViewDelegate Method
+
+-(void)didUpdateText:(NSString *)text
+{
+    self.textField.text = text;
+}
+
 
 @end

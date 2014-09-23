@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCDetailViewController.h"
 
-@interface CCViewController : UIViewController
+@interface CCViewController : UIViewController <CCDetailViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
 
